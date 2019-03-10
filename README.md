@@ -171,6 +171,14 @@ It's possible to control the speed of the animation by adding these classes, as 
 
 > _**Note**: The `animated` class has a default speed of `1s`. If you need custom duration, add it directly to your own CSS code._
 
+## On-hover Class Names
+
+It's possible to have an animation when the mouse hovers over something, by adding this class: `onhover-[animation name]`, as a sample below:
+
+```html
+<h1 class="onhover-bounce">This is a test</h1>
+```
+
 ## Custom Builds
 
 Animate.css is powered by [gulp.js](http://gulpjs.com/), which means you can create custom builds pretty easily. First of all, you’ll need Gulp and all other dependencies:
