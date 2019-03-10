@@ -1,0 +1,361 @@
+/* originally authored by Seb Yeates - https://github.com/SebYeates */
+
+/* Note: This creates (hard-codes) a class name for any animation to activate when mouse hovers over. Defult animation timings = 1 sec. Future Goal: Just to have class name "hover", witch can be added to element and timings tobe customisable */
+
+/*--------------------- "attention_seekers" --------------------- */
+
+.hover-bounce:hover {
+  -webkit-animation: bounce 1s;
+  animation: bounce 1s;
+}
+.hover-flash:hover {
+  -webkit-animation: flash 1s;
+  animation: flash 1s;
+}
+.hover-pulse:hover {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+}
+.hover-rubberBand:hover {
+  -webkit-animation: rubberBand 1s;
+  animation: rubberBand 1s;
+}
+.hover-shake:hover {
+  -webkit-animation: shake 1s;
+  animation: shake 1s;
+}
+.hover-headShake:hover {
+  -webkit-animation: headShake 1s;
+  animation: headShake 1s;
+}
+.hover-swing:hover {
+  -webkit-animation: swing 1s;
+  animation: swing 1s;
+}
+.hover-tada:hover {
+  -webkit-animation: tada 1s;
+  animation: tada 1s;
+}
+.hover-wobble:hover {
+  -webkit-animation: wobble 1s;
+  animation: wobble 1s;
+}
+.hover-jello:hover {
+  -webkit-animation: jello 1s;
+  animation: jello 1s;
+}
+.hover-heartBeat:hover {
+  -webkit-animation: heartBeat 1s;
+  animation: heartBeat 1s;
+}
+
+/*--------------------- "bouncing_entrances" --------------------- */
+
+.hover-bounceInDown:hover {
+  -webkit-animation: bounceInDown 1s;
+  animation: bounceInDown 1s;
+}
+.hover-bounceInDown:hover {
+  -webkit-animation: bounceInDown 1s;
+  animation: bounceInDown 1s;
+}
+.hover-bounceInLeft:hover {
+  -webkit-animation: bounceInLeft 1s;
+  animation: bounceInLeft 1s;
+}
+.hover-bounceInRight:hover {
+  -webkit-animation: bounceInRight 1s;
+  animation: bounceInRight 1s;
+}
+.hover-bounceInUp:hover {
+  -webkit-animation: bounceInUp 1s;
+  animation: bounceInUp 1s;
+}
+
+/*--------------------- "bouncing_exits" --------------------- */
+
+.hover-bounceOut:hover {
+  -webkit-animation: bounceOut 1s;
+  animation: bounceOut 1s;
+}
+.hover-bounceOutDown:hover {
+  -webkit-animation: bounceOutDown 1s;
+  animation: bounceOutDown 1s;
+}
+.hover-bounceOutLeft:hover {
+  -webkit-animation: bounceOutLeft 1s;
+  animation: bounceOutLeft 1s;
+}
+.hover-bounceOutRight:hover {
+  -webkit-animation: bounceOutRight 1s;
+  animation: bounceOutRight 1s;
+}
+.hover-bounceOutUp:hover {
+  -webkit-animation: bounceOutUp 1s;
+  animation: bounceOutUp 1s;
+}
+
+/*--------------------- "fading_entrances" --------------------- */
+
+.hover-fadeIn:hover {
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.hover-fadeInDown:hover {
+  -webkit-animation: fadeInDown 1s;
+  animation: fadeInDown 1s;
+}
+.hover-fadeInDown:hover {
+  -webkit-animation: fadeInDown 1s;
+  animation: fadeInDown 1s;
+}
+.hover-fadeInDownBig:hover {
+  -webkit-animation: fadeInDownBig 1s;
+  animation: fadeInDownBig 1s;
+}
+.hover-fadeInLeft:hover {
+  -webkit-animation: fadeInLeft 1s;
+  animation: fadeInLeft 1s;
+}
+.hover-fadeInLeftBig:hover {
+  -webkit-animation: fadeInLeftBig 1s;
+  animation: fadeInLeftBig 1s;
+}
+.hover-fadeInRight:hover {
+  -webkit-animation: fadeInRight 1s;
+  animation: fadeInRight 1s;
+}
+.hover-fadeInRightBig:hover {
+  -webkit-animation: fadeInRightBig 1s;
+  animation: fadeInRightBig 1s;
+}
+.hover-fadeInUp:hover {
+  -webkit-animation: fadeInUp 1s;
+  animation: fadeInUp 1s;
+}
+.hover-fadeInUpBig:hover {
+  -webkit-animation: fadeInUpBig 1s;
+  animation: fadeInUpBig 1s;
+}
+
+/*--------------------- "fading_exits" --------------------- */
+
+.hover-fadeOut:hover {
+  -webkit-animation: fadeOut 1s;
+  animation: fadeOut 1s;
+}
+.hover-fadeOutDown:hover {
+  -webkit-animation: fadeOutDown 1s;
+  animation: fadeOutDown 1s;
+}
+.hover-fadeOutDownBig:hover {
+  -webkit-animation: fadeOutDownBig 1s;
+  animation: fadeOutDownBig 1s;
+}
+.hover-fadeOutLeft:hover {
+  -webkit-animation: fadeOutLeft 1s;
+  animation: fadeOutLeft 1s;
+}
+.hover-fadeOutLeftBig:hover {
+  -webkit-animation: fadeOutLeftBig 1s;
+  animation: fadeOutLeftBig 1s;
+}
+.hover-fadeOutRight:hover {
+  -webkit-animation: fadeOutRight 1s;
+  animation: fadeOutRight 1s;
+}
+.hover-fadeOutRightBig:hover {
+  -webkit-animation: fadeOutRightBig 1s;
+  animation: fadeOutRightBig 1s;
+}
+.hover-fadeOutUp:hover {
+  -webkit-animation: fadeOutUp 1s;
+  animation: fadeOutUp 1s;
+}
+.hover-fadeOutUpBig:hover {
+  -webkit-animation: fadeOutUpBig 1s;
+  animation: fadeOutUpBig 1s;
+}
+
+/*--------------------- "flippers" --------------------- */
+
+.hover-flip:hover {
+  -webkit-animation: flip 1s;
+  animation: flip 1s;
+}
+.hover-flipInX:hover {
+  -webkit-animation: flipInX 1s;
+  animation: flipInX 1s;
+}
+.hover-flipInY:hover {
+  -webkit-animation: flipInY 1s;
+  animation: flipInY 1s;
+}
+.hover-flipOutX:hover {
+  -webkit-animation: flipOutX 1s;
+  animation: flipOutX 1s;
+}
+.hover-flipOutY:hover {
+  -webkit-animation: flipOutY 1s;
+  animation: flipOutY 1s;
+}
+
+/*--------------------- "lightspeed" --------------------- */
+
+.hover-lightSpeedIn:hover {
+  -webkit-animation: lightSpeedIn 1s;
+  animation: lightSpeedIn 1s;
+}
+.hover-lightSpeedOut:hover {
+  -webkit-animation: lightSpeedOut 1s;
+  animation: lightSpeedOut 1s;
+}
+
+/*--------------------- "rotating_entrances" --------------------- */
+
+.hover-rotateIn:hover {
+  -webkit-animation: rotateIn 1s;
+  animation: rotateIn 1s;
+}
+.hover-rotateInDownLeft:hover {
+  -webkit-animation: rotateInDownLeft 1s;
+  animation: rotateInDownLeft 1s;
+}
+.hover-rotateInDownRight:hover {
+  -webkit-animation: rotateInDownRight 1s;
+  animation: rotateInDownRight 1s;
+}
+.hover-rotateInUpLeft:hover {
+  -webkit-animation: rotateInUpLeft 1s;
+  animation: rotateInUpLeft 1s;
+}
+.hover-rotateInUpRight:hover {
+  -webkit-animation: rotateInUpRight 1s;
+  animation: rotateInUpRight 1s;
+}
+
+/*--------------------- "rotating_exits" --------------------- */
+
+.hover-rotateOut:hover {
+  -webkit-animation: rotateOut 1s;
+  animation: rotateOut 1s;
+}
+.hover-rotateOutDownLeft:hover {
+  -webkit-animation: rotateOutDownLeft 1s;
+  animation: rotateOutDownLeft 1s;
+}
+.hover-rotateOutDownRight:hover {
+  -webkit-animation: rotateOutDownRight 1s;
+  animation: rotateOutDownRight 1s;
+}
+.hover-rotateOutUpLeft:hover {
+  -webkit-animation: rotateOutUpLeft 1s;
+  animation: rotateOutUpLeft 1s;
+}
+.hover-rotateOutUpRight:hover {
+  -webkit-animation: rotateOutUpRight 1s;
+  animation: rotateOutUpRight 1s;
+}
+
+/*--------------------- "specials" --------------------- */
+
+.hover-hinge:hover {
+  -webkit-animation: hinge 1s;
+  animation: hinge 1s;
+}
+.hover-jackInTheBox:hover {
+  -webkit-animation: jackInTheBox 1s;
+  animation: jackInTheBox 1s;
+}
+.hover-rollIn:hover {
+  -webkit-animation: rollIn 1s;
+  animation: rollIn 1s;
+}
+.hover-rollOut:hover {
+  -webkit-animation: rollOut 1s;
+  animation: rollOut 1s;
+}
+
+/*--------------------- "zooming_entrances" --------------------- */
+
+.hover-zoomIn:hover {
+  -webkit-animation: zoomIn 1s;
+  animation: zoomIn 1s;
+}
+.hover-zoomInDown:hover {
+  -webkit-animation: zoomInDown 1s;
+  animation: zoomInDown 1s;
+}
+.hover-zoomInLeft:hover {
+  -webkit-animation: zoomInLeft 1s;
+  animation: zoomInLeft 1s;
+}
+.hover-zoomInRight:hover {
+  -webkit-animation: zoomInRight 1s;
+  animation: zoomInRight 1s;
+}
+.hover-zoomInUp:hover {
+  -webkit-animation: zoomInUp 1s;
+  animation: zoomInUp 1s;
+}
+
+/*--------------------- "zooming_exits" --------------------- */
+
+.hover-zoomOut:hover {
+  -webkit-animation: zoomOut 1s;
+  animation: zoomOut 1s;
+}
+.hover-zoomOutDown:hover {
+  -webkit-animation: zoomOutDown 1s;
+  animation: zoomOutDown 1s;
+}
+.hover-zoomOutLeft:hover {
+  -webkit-animation: zoomOutLeft 1s;
+  animation: zoomOutLeft 1s;
+}
+.hover-zoomOutRight:hover {
+  -webkit-animation: zoomOutRight 1s;
+  animation: zoomOutRight 1s;
+}
+.hover-zoomOutUp:hover {
+  -webkit-animation: zoomOutUp 1s;
+  animation: zoomOutUp 1s;
+}
+
+/*--------------------- "sliding_entrances" --------------------- */
+
+.hover-slideInDown:hover {
+  -webkit-animation: slideInDown 1s;
+  animation: slideInDown 1s;
+}
+.hover-slideInLeft:hover {
+  -webkit-animation: slideInLeft 1s;
+  animation: slideInLeft 1s;
+}
+.hover-slideInRight:hover {
+  -webkit-animation: slideInRight 1s;
+  animation: slideInRight 1s;
+}
+.hover-slideInUp:hover {
+  -webkit-animation: slideInUp 1s;
+  animation: slideInUp 1s;
+}
+
+/*--------------------- "sliding_exits" --------------------- */
+
+.hover-slideOutDown:hover {
+  -webkit-animation: slideOutDown 1s;
+  animation: slideOutDown 1s;
+}
+.hover-slideOutLeft:hover {
+  -webkit-animation: slideOutLeft 1s;
+  animation: slideOutLeft 1s;
+}
+.hover-slideOutRight:hover {
+  -webkit-animation: slideOutRight 1s;
+  animation: slideOutRight 1s;
+}
+.hover-slideOutUp:hover {
+  -webkit-animation: slideOutUp 1s;
+  animation: slideOutUp 1s;
+}
