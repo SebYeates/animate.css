@@ -173,7 +173,7 @@ It's possible to control the speed of the animation by adding these classes, as 
 
 ## On-hover Class Names
 
-It's possible to have an animation when the mouse hovers over something, by adding this class: `onhover-[animation name]`, as a sample below:
+It's possible to have an animation when the mouse hovers over something, by adding this class: `onhover-[animation name]`, as a the example shows below:
 
 ```html
 <h1 class="onhover-bounce">This is a test</h1>
